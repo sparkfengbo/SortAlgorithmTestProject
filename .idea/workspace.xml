@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4220ac5-6576-48d7-b7e8-0e38cb2ac0f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c4220ac5-6576-48d7-b7e8-0e38cb2ac0f9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,8 +75,8 @@
       <file leaf-file-name="ShellSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/非线性时间比较类排序/插入排序/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-376">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="328">
+              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -169,11 +167,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="35" />
-    <option name="width" value="1239" />
-    <option name="height" value="778" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="115" />
+    <option name="y" value="275" />
+    <option name="width" value="1238" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -193,6 +191,11 @@
               <item name="SortAlgorithmTestProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SortAlgorithmTestProject" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SortAlgorithmTestProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SortAlgorithmTestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="picres" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SortAlgorithmTestProject" type="b2602c69:ProjectViewProjectNode" />
@@ -242,6 +245,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="haru&#9;PSI&#9;JAVA://com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.HttpHandlerRunnable" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -348,8 +352,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1238" height="777" extended-state="6" />
-    <editor active="true" />
+    <frame x="115" y="275" width="1238" height="777" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -359,12 +362,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38088235" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38088235" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24717286" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24717286" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -639,8 +642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/非线性时间比较类排序/插入排序/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state relative-caret-position="328">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
