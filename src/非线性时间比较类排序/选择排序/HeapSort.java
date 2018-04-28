@@ -46,9 +46,9 @@ public class HeapSort extends SortStrategy {
         super.sort(array);
 
         /**
-         * 关键1：建立大根堆
+         * 关键 1：建立大根堆
          *
-         * 以19个元素为例，构建顺序：
+         * 以19个元素为例(在Main中传入的测试数组是19个)，构建顺序：
          *
          * 9 -(19, 20); 8 - 17, 18; 7 - 15, 16; 6 - 13, 14; 5 - 11, 12;
          * 4 -  9, 10 ; 3 -  7,  8; 2 -  5,  6;
@@ -61,8 +61,9 @@ public class HeapSort extends SortStrategy {
             heapify(array, i, array.length - 1);
         }
 
-        //关键2：调整堆
-
+        /**
+         * 关键 2：调整堆
+         */
         for (int i = array.length - 1; i >= 0; i--) {
             int tmp = array[0];
             array[0] = array[i];
@@ -85,7 +86,7 @@ public class HeapSort extends SortStrategy {
 
         int parent = parentIndex;
 
-        //如果左儿子比父节点小，说明需要更换
+        //如果左右儿子比父节点大，说明需要更换（大根堆根节点最大）
         if (leftChild < length && arr[leftChild] > arr[parent]) {
             parent = leftChild;
         }
@@ -94,6 +95,27 @@ public class HeapSort extends SortStrategy {
             parent = rightChild;
         }
 
+        /**
+         * 其实这里可以做一个优化，
+         *
+         * 因为 假设有这样一个 子数结构
+         *
+         *     2
+         *    / \
+         *   3   4
+         *
+         *  进行第一次调整
+         *     3
+         *    / \
+         *   2   4
+         *
+         *  进行第二次调整
+         *     4
+         *    / \
+         *   2   3
+         *
+         *  其实可以优化成一次调整
+         */
         if (parent != parentIndex) {
             int tmp = arr[parent];
             arr[parent] = arr[parentIndex];

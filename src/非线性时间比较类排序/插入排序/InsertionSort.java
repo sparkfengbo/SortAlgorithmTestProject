@@ -58,5 +58,14 @@ public class InsertionSort extends SortStrategy {
             }
             array[preIndex + 1] = current;
         }
+
+        //插入排序的简洁写法
+//        int j = 0;
+//        for (int i = 1; i < array.length; i++) {
+//            int num = array[i];
+//            for (j = i - 1; j >= 0 && array[j] > num; j -= 1)
+//                array[j + 1] = array[j];
+//            array[j + 1] = num;
+//        }
     }
 }

@@ -56,5 +56,16 @@ public class ShellSort extends SortStrategy {
                 array[j + gap] = num;
             }
         }
+
+        //下面是插入排序的算法
+//        for (int i = 1; i < array.length; i++) {
+//            int preIndex = i - 1;
+//            int current = array[i];
+//            while (preIndex >= 0 && current < array[preIndex]) {
+//                array[preIndex + 1] = array[preIndex];
+//                preIndex--;
+//            }
+//            array[preIndex + 1] = current;
+//        }
     }
 }

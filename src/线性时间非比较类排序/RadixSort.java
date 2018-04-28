@@ -1,9 +1,6 @@
 package 线性时间非比较类排序;
 
 import main.SortStrategy;
-import org.omg.PortableInterceptor.INACTIVE;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 
