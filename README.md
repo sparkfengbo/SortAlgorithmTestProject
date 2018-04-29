@@ -4,7 +4,7 @@
 
 **【参考文章】**
 
-- [十大经典排序算法（动图演示）](http://www.cnblogs.com/onepixel/p/7674659.html)
+- [十大经典排序算法（动图演示）](http://www.cnblogs.com/onepixel/p/7674659.html) (很多内容摘自此篇文章)
 - [算法之排序算法](http://dongxicheng.org/structure/sort/)
 - [Java实现归并排序](https://www.cnblogs.com/of-fanruice/p/7678801.html)
 - [排序算法总结](http://www.runoob.com/w3cnote/sort-algorithm-summary.html)
