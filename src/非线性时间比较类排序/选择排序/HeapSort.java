@@ -58,7 +58,7 @@ public class HeapSort extends SortStrategy {
         int length = array.length;
 
         for (int i = length / 2; i >= 0; i--) {
-            heapify(array, i, array.length - 1);
+            heapify(array, i, array.length);
         }
 
         /**

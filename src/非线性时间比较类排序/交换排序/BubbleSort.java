@@ -41,18 +41,22 @@ public class BubbleSort extends SortStrategy {
     }
 
     @Override
-    public void sort(int[] arg) {
-        super.sort(arg);
-        for (int i = arg.length; i >= 0; i--) {
+    public void sort(int[] array) {
+        super.sort(array);
+        int temp;
+        for (int i = array.length - 1; i > 0; i--) {
+            boolean Flag = false; // 是否发生交换。没有交换，提前跳出外层循环
             for (int j = 0; j < i; j++) {
-                if (j < (arg.length - 1) && arg[j] > arg[j + 1]) {
-                    //swap
-                    int t = arg[j];
-                    arg[j] = arg[j + 1];
-                    arg[j + 1] = t;
+                if (array[j] > array[j + 1]) {
+                    temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                    Flag = true;
                 }
+            }
+            if (!Flag) {
+                break;
             }
         }
     }
-
 }
